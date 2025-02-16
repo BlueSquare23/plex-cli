@@ -95,37 +95,37 @@ options:
 * **List Libraries Info**
 
 ```
-sudo plex-cli --info
+plex-cli.py --info
 ```
 
 * **Refresh Documentary TV Shows Library**
 
 ```
-sudo plex-cli --refresh --library doc_tv_shows
+plex-cli.py --refresh --library doc_tv_shows
 ```
 
 * **List Current Sessions**
 
 ```
-sudo plex-cli --sessions --verbose
+plex-cli.py --sessions --verbose
 ```
 
 * **List All Movies Verbose**
 
 ```
-sudo plex-cli --list --library movies -v
+plex-cli.py --list --library movies -v
 ```
 
 * **List All TV Show w/ JSON Output**
 
 ```
-sudo plex-cli --list --library tv_shows -v --json
+plex-cli.py --list --library tv_shows -v --json
 ```
 
 * **Search for Movie by Actor and Year**
 
 ```
-sudo plex-cli --year 1970 --actor "Charlton Heston" --library movies -v
+plex-cli.py --year 1970 --actor "Charlton Heston" --library movies -v
 ```
 
 ![-----------------------------------------------------](https://johnlradford.io/static/img/bar.gif)
